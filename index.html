@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Cybersecurity Awareness - Next AI Systems</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('https://content.kaspersky-labs.com/se/com/content/en-global/images/repository/isc/2017-images/What-is-Cyber-Security/What-is-Cyber-Security.jpg') no-repeat center center fixed; background-size: cover;
+      color: #333;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    }
+    h1, h2, h3 {
+      color: #112e51;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 1.8rem;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 6px;
+      margin-top: 50px;
+    }
+    h3 {
+      margin-top: 30px;
+      font-size: 1.3rem;
+      color: #0c3c78;
+    }
+    p {
+      margin: 15px 0;
+      font-size: 1rem;
+    }
+    ul {
+      margin: 10px 0 20px 20px;
+      padding-left: 0;
+    }
+    ul li {
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+    ul li::marker {
+      color: #007BFF;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #0056b3;
+    }
+    .highlight {
+      background: #f0f6ff;
+      padding: 15px 20px;
+      border-left: 5px solid #2a72d4;
+      margin: 30px 0;
+      border-radius: 6px;
+      font-size: 0.95rem;
+    }
+    footer {
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid #ccc;
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+<nav style="background:#112e51;padding:10px;text-align:center;">
+<a href="index.html" style="color:white; margin: 0 15px;">Home</a>
+<a href="about.html" style="color:white; margin: 0 15px;">About</a>
+<a href="contact.html" style="color:white; margin: 0 15px;">Contact</a>
+</nav>
+
+<div class="container">
+<h1>Cybersecurity Awareness for Next AI Systems</h1>
+<p>Welcome to the cybersecurity awareness hub designed specifically for <strong>Next AI Systems</strong>, a Legal-Tech startup. This page provides practical insights into two major cybersecurity threats — phishing/social engineering and brute force/credential stuffing — and how they can impact legal professionals and AI systems, even in the presence of two-factor authentication (2FA).</p>
+<h2>Understanding Phishing and Social Engineering</h2>
+<p>Phishing is a fraudulent technique where attackers pose as trustworthy sources — like a bank or colleague — to steal sensitive information. Social engineering manipulates human behavior to bypass technical security controls.</p>
+<h3>How It Works</h3>
+<ul>
+<li>Fake emails mimicking IT support or legal clients</li>
+<li>Urgent calls requesting password resets or login confirmation</li>
+<li>Malicious links disguised as important documents or invoices</li>
+</ul>
+<div class="highlight">
+<strong>Real Case:</strong> A lawyer received a fake client email requesting urgent access to documents. The link opened a lookalike login page. Credentials were stolen and used to access confidential case files.
+    </div>
+<h3>How to Defend Against It</h3>
+<ul>
+<li>Verify the sender’s identity through a second channel (e.g., phone call)</li>
+<li>Educate staff about red flags — urgency, poor grammar, suspicious URLs</li>
+<li>Implement anti-phishing tools in email gateways</li>
+<li>Disable HTML rendering in emails for sensitive accounts</li>
+</ul>
+<h2>Credential Stuffing and Brute Force (Despite 2FA)</h2>
+<p>Credential stuffing uses stolen username-password combinations to breach systems. Brute force attacks systematically guess passwords. Even with 2FA, attackers use phishing or SIM-swapping to bypass it.</p>
+<h3>Attack Vectors</h3>
+<ul>
+<li>Botnets executing large-scale login attempts</li>
+<li>Phishing pages collecting 2FA tokens directly</li>
+<li>Malware that intercepts passwords and browser sessions</li>
+<li>SIM hijacking to access SMS-based 2FA</li>
+</ul>
+<h3>Prevention Measures</h3>
+<ul>
+<li>Use password managers to generate complex, unique passwords</li>
+<li>Adopt app-based or biometric 2FA (avoid SMS when possible)</li>
+<li>Enable geo-location and device-based login alerts</li>
+<li>Scan the dark web regularly for leaked credentials</li>
+</ul>
+<h2>Recommended Actions for Next AI Systems</h2>
+<ul>
+<li>Run phishing simulation campaigns every quarter</li>
+<li>Limit access to legal files using role-based access control (RBAC)</li>
+<li>Adopt zero-trust network access architecture</li>
+<li>Log and review admin account activity regularly</li>
+<li>Deploy adaptive authentication (device history, behavior analytics)</li>
+</ul>
+<h2>Further Reading and Tools</h2>
+<ul>
+<li><a href="https://www.cyber.gov.au" target="_blank">Australian Cyber Security Centre</a></li>
+<li><a href="https://haveibeenpwned.com" target="_blank">Have I Been Pwned – Check Your Credentials</a></li>
+<li><a href="https://owasp.org/www-project-top-ten/" target="_blank">OWASP Top 10 Security Risks</a></li>
+<li><a href="https://www.ncsc.gov.uk/guidance/passwords" target="_blank">UK NCSC Password Best Practices</a></li>
+</ul>
+<h2>📚 APA 7 References</h2>
+<ul>
+<li>Australian Cyber Security Centre. (2022). <i>Avoiding email scams</i>. Australian Government. <a href="https://www.cyber.gov.au/protect-yourself/avoid-threats/avoiding-email-scams" target="_blank">https://www.cyber.gov.au/protect-yourself/avoid-threats/avoiding-email-scams</a></li>
+<li>Imperva. (2020). <i>What is credential stuffing?</i> <a href="https://www.imperva.com/blog/credential-stuffing-attack/" target="_blank">https://www.imperva.com/blog/credential-stuffing-attack/</a></li>
+<li>OWASP Foundation. (n.d.). <i>OWASP Top 10: Web application security risks</i>. <a href="https://owasp.org/www-project-top-ten/" target="_blank">https://owasp.org/www-project-top-ten/</a></li>
+</ul>
+<footer>© 2025 Next AI Systems | Cybersecurity Awareness Prepared by Yogeesh Chandrashekar</footer>
+</div>
+</body>
+</html>
